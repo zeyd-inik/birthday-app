@@ -285,6 +285,11 @@ body {
   border: none;
   border-radius: 3px;
   text-transform: capitalize;
+  transition: all ease 0.2s;
+}
+.btn-block:hover {
+  cursor: pointer;
+  background-color: var(--primary-900);
 }
 
 .person {
